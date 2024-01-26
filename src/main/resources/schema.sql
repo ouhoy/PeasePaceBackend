@@ -31,7 +31,7 @@ INSERT INTO Product (title, price, category, origin, image)
 VALUES ('Cherries ', 1.30, 'fruits', 'Sefrou, Morocco', 'cherries.png');
 
 INSERT INTO Product (title, price, category, origin, image)
-VALUES ( 'Avocado ', 8.50, 'fruits', 'Tancitaro-Michoan, Mexico', 'Avocado.png');
+VALUES ( 'Avocado', 8.50, 'fruits', 'Tancitaro-Michoan, Mexico', 'Avocado.png');
 
 INSERT INTO Product ( title, price, category, origin, image)
 VALUES ('Red pepper ', 2.00, 'vegetables', 'Tadla-Azilal, Morocco', 'Red pepper.png');
