@@ -31,7 +31,7 @@ INSERT INTO Product (id, title, price, category, origin, image)
 VALUES (7, 'Potato ', 2.00, 'vegetables', 'The Atlantic Coast of Casablanca, Morocco', 'Potato.png');
 
 INSERT INTO Product (id, title, price, category, origin, image)
-VALUES (7, 'Carrot ', 5.00, 'vegetables', 'El-Hoceima, Morocco', 'Carrot.png');
+VALUES (8, 'Carrot ', 5.00, 'vegetables', 'El-Hoceima, Morocco', 'Carrot.png');
 
 
 
