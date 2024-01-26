@@ -14,6 +14,10 @@ VALUES (1, 'Heirloom tomato', 5.00, 'vegetables', 'San Juan Capistrano, CA', 'to
 INSERT INTO Product (id, title, price, category, origin, image)
 VALUES (2, 'Sweet Onion', 2.99, 'vegetables', 'San Juan Capistrano, CA', 'sweet-onion.png');
 
+
 INSERT INTO Product (id, title, price, category, origin, image)
-VALUES (3, 'Cherries ', 1.59, 'fruits', 'San Juan Capistrano, CA', 'cherries.png');
+VALUES (3, 'Cherries ', 1.30, 'fruits', 'San Juan Capistrano, CA', 'cherries.png');
+
+INSERT INTO Product (id, title, price, category, origin, image)
+VALUES (4, 'Avocado ', 8.50, 'fruits', 'San Juan Capistrano, CA', 'Avocado.png');
 
