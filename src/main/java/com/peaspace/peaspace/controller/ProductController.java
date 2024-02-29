@@ -45,7 +45,12 @@ public class ProductController {
         if(!repository.existsById(id)) {
             throw new ResponseStatusException(HttpStatus.NOT_FOUND, "Product not found.");
         }
-        repository.save(product);
+
+        System.out.println("Updated product with id: " + id);
+
+        Product updatedProduct = new Product(id, product.title(), product.price(), product.origin(), product.category(), product.image());
+        repository.save(updatedProduct);
+
     }
 
     @ResponseStatus(HttpStatus.NO_CONTENT)

@@ -20,5 +20,8 @@ public record Product(
         @NotBlank
 
         String image
+
+
 ) {
+
 }
